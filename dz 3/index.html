@@ -16,12 +16,15 @@
   <script src="./script1.js"></script>
   <script>
     new SliderJS({
-        id: 'slider'
-        options: {
-            maxSlides:2,
-            loop: true,
-            controls:true,
-        }
-    })
+      id: 'slider',
+      options: {
+        maxSlides: 2,
+        loop: true,
+        controls: true,
+        hideButtons: false,
+        autoScroll: true,
+        interval: 5000,
+      },
+    });
   </script>
 </html>
